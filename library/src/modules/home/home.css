@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+        /* \/ \/ CSS FOR SEARCH DIVISON */
+
+input{
+    outline: none;
+    background: black;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: none;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+}
+input::placeholder{
+    font-style: italic;
+    text-align: end;
+}
+.searchdiv{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    }
+
+    /* \/  \/  CSS FOR BODY CONTENT NOTES AND ALL BUTTON BELOW \/  \/  */
+
+    .typeDiv, .courseDiv{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    .typeDiv a, .courseDiv a{
+        text-decoration: none;
+    }
+    .tyclickdiv{
+        width: 95px;
+        padding:0 6px 0 6px ;
+    height: 70px;
+    background: black;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   font-weight: 600;
+  
+    }
+    .crclickdiv{
+        width: 95px;
+        padding:0 6px 0 6px ;
+    height: 40px;
+    background: black;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   font-weight: 400;
+  
+    }
+
+    .semdiv{
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+        gap: 16px;
+    }
+    .smclickdiv{
+        width: 95px;
+        padding:0 6px 0 6px ;
+    height: 40px;
+    background: black;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   /* font-weight: 400; */
+   font-size: 12px;
+   
+    }
+
+
+    /* \/  \/  CSS FOR NOTES PAGE OR RESULT PAGE BELOW \/  \/  */
+
+    
