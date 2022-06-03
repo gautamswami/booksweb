@@ -10,12 +10,12 @@ export default function PdfPage() {
     <div>
          <Link to='/' style={{padding:"6px", textDecoration:"none", color:"gray", fontSize:"20px" }}> GO BACK</Link>
        
-              <iframe src={lin.map((like)=>{return(like.link)})} width="360" height="480" allow="autoplay"></iframe>
+              <iframe src={lin.map((like)=>{return(like.link)})} width="860" height="680" allow="autoplay"></iframe>
               <br/> 
               < hr />
-              <embed src={lin.map((like)=>{return(like.link)})} 
-               width="860"
-               height="500"></embed>
+              {/* <embed src={lin.map((like)=>{return(like.link)})}  */}
+               {/* width="860"
+               height="500"></embed> */}
      </div>
   )
 }
