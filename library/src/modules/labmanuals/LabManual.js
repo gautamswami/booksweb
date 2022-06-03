@@ -5,4 +5,3 @@ export default function LabManual() {
     <div>LabManual</div>
   )
 }
-// hello
